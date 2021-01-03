@@ -1,0 +1,154 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "phone": "0123456789",
+      "email": "admin@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Minh Thuy",
+      "phone": "0123456789",
+      "email": "minhthuy@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Nga Pham",
+      "phone": "0987654321",
+      "email": "ngapham@example.com"
+    }
+  ],
+  "currentUser": {
+    "id": 2
+  },
+  "reservations": [
+    {
+      "customerName": "Minh Thuy",
+      "customerPhoneNumber": "0123456789",
+      "customerEmail": "minhthuy@example.com",
+      "customerMessage": "",
+      "branch": 0,
+      "reservationDate": "2020-12-28",
+      "reservationTime": "14:00",
+      "service": 1,
+      "petType": 0,
+      "petSymptoms": "",
+      "isConfrimed": false,
+      "isFinished": false,
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "customerName": "Mia",
+      "customerPhoneNumber": "0123456789",
+      "customerEmail": "minhthuy@example.com",
+      "customerMessage": "",
+      "branch": 0,
+      "reservationDate": "2020-12-30",
+      "reservationTime": "14:00",
+      "service": 0,
+      "petType": 0,
+      "petSymptoms": "",
+      "isConfrimed": true,
+      "isFinished": false,
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "customerName": "abc",
+      "customerPhoneNumber": "0123456789",
+      "customerEmail": "minhthuy@example.com",
+      "customerMessage": "",
+      "branch": 0,
+      "reservationDate": "2021-01-07",
+      "reservationTime": "11:00",
+      "service": 0,
+      "petType": 0,
+      "petSymptoms": "",
+      "isConfrimed": false,
+      "isFinished": false,
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "customerName": "Nguyễn Văn Dũng",
+      "customerPhoneNumber": "0398202274",
+      "customerEmail": "minhthuy@example.com",
+      "customerMessage": "lời nhắn của tôi",
+      "branch": 1,
+      "reservationDate": "2021-01-04",
+      "reservationTime": "08:00",
+      "service": 1,
+      "petType": 0,
+      "petSymptoms": "",
+      "isConfrimed": false,
+      "isFinished": false,
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "customerName": "Minh Thuy",
+      "customerPhoneNumber": "0123456789",
+      "customerEmail": "minhthuy@example.com",
+      "customerMessage": "zxczxczxc",
+      "branch": 0,
+      "reservationDate": "2021-01-14",
+      "reservationTime": "09:00",
+      "service": 0,
+      "petType": 0,
+      "petSymptoms": "zxczxczxc",
+      "isConfrimed": false,
+      "isFinished": false,
+      "userId": 2,
+      "id": 5
+    }
+  ],
+  "newReservation": {},
+  "customerReview": [
+    {
+      "id": 1,
+      "star": 4,
+      "authorName": "Nguyễn Văn A",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+      "petType": "Chó",
+      "serviceName": "Khám sức khỏe định kỳ",
+      "like": 12,
+      "dislike": 5,
+      "isEdit": true
+    },
+    {
+      "id": 2,
+      "star": 5,
+      "authorName": "Nguyễn Văn B",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "petType": "Mèo",
+      "serviceName": "Khám sức khỏe định kỳ",
+      "like": 12,
+      "dislike": 5,
+      "isEdit": false
+    },
+    {
+      "id": 3,
+      "star": 3,
+      "authorName": "Nguyễn Văn C",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "petType": "Mèo",
+      "serviceName": "Tiêm phòng",
+      "like": 12,
+      "dislike": 5,
+      "isEdit": false
+    },
+    {
+      "id": 4,
+      "star": 3,
+      "authorName": "Nguyễn Văn D",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "petType": "Chó",
+      "serviceName": "Tiêm phòng",
+      "like": 12,
+      "dislike": 5,
+      "isEdit": true
+    }
+  ]
+}

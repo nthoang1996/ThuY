@@ -1,0 +1,171 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"name": "admin",
+			"phone": "0123456789",
+			"email": "admin@example.com"
+		},
+		{
+			"id": 2,
+			"name": "Minh Thuy",
+			"phone": "0123456789",
+			"email": "admin@example.com"
+		},
+		{
+			"id": 3,
+			"name": "Nga Pham",
+			"phone": "0123456789",
+			"email": "admin@example.com"
+		},
+		{
+			"id": 4,
+			"name": "abc",
+			"phone": "0123456789",
+			"email": "admin@example.com"
+		}
+	],
+	"currentUser": {
+		"id": 3
+	},
+	"reservations": [
+		{
+			"customerName": "NgaPham",
+			"customerPhoneNumber": "0123456789",
+			"customerEmail": "",
+			"customerMessage": "my message",
+			"branch": 2,
+			"reservationDate": "2020-12-31",
+			"reservationTime": "",
+			"service": 2,
+			"petType": "cat",
+			"petSymptoms": "",
+			"isConfrimed": false,
+			"isFinished": false,
+			"id": 1
+		},
+		{
+			"customerName": "Nga",
+			"customerPhoneNumber": "0123456789",
+			"customerEmail": "",
+			"customerMessage": "",
+			"branch": 1,
+			"reservationDate": "2020-12-25",
+			"reservationTime": "10:00",
+			"service": 1,
+			"petType": "dog",
+			"petSymptoms": "",
+			"isConfrimed": false,
+			"isFinished": false,
+			"id": 2
+		},
+		{
+			"customerName": "t",
+			"customerPhoneNumber": "0352349848",
+			"customerEmail": "hongmo241198@gmail.com",
+			"customerMessage": "dddddd",
+			"branch": 2,
+			"reservationDate": "2021-01-08",
+			"reservationTime": "09:00",
+			"service": 1,
+			"petType": "cat",
+			"petSymptoms": "",
+			"isConfrimed": false,
+			"isFinished": false,
+			"id": 3
+		}
+	],
+	"diseaseHistorys": [
+		{
+			"id": 1,
+			"service": "Khám sức khỏe tổng quát",
+			"pet": "Chó, 3 tháng nuôi",
+			"time": "12-12-2020",
+			"cost": "150.000 VNĐ",
+			"status": true,
+			"customerName": "NgaPham",
+			"doctorName": "Nguyễn Thị A",
+			"star": 5,
+			"userId": 1,
+			"comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel lorem ut nibh laoreet vestibulum at eget velit. Morbi elementum dictum magna id elementum. Suspendisse fringilla lacus et est laoreet laoreet. Proin tincidunt ullamcorper nisi, ut pellentesque magna vulputate feugiat. Nam convallis dui a diam molestie, ac maximus mauris mattis. Quisque eu justo tristique, varius risus ut, interdum quam. Nullam tincidunt, eros vitae convallis posuere, lacus lacus finibus turpis, in sagittis ligula dui vel diam."
+		},
+		{
+			"id": 2,
+			"star": 5,
+			"service": "Tiêm phòng ",
+			"pet": "Chó, 3 tháng nuôi",
+			"time": "12-12-2020 ",
+			"cost": "150.000 VNĐ",
+			"status": true,
+			"customerName": "NgaPham",
+			"doctorName": "Nguyễn Thị B",
+			"userId": 2,
+			"comment": "ddddd"
+		},
+		{
+			"id": 3,
+			"star": 4,
+			"service": "Tiêm phòng ",
+			"pet": "Chó, 3 tháng nuôi",
+			"time": "12-12-2020",
+			"status": true,
+			"customerName": "NgaPham",
+			"doctorName": "Nguyễn Thị B",
+			"userId": 2,
+			"comment": "ddddddddddd",
+			"cost": "150.000 VNĐ"
+		},
+		{
+			"id": 4,
+			"service": "Tiêm phòng",
+			"pet": "Chó, 3 tháng nuôi",
+			"time": "12-12-2020",
+			"cost": "150.000 VNĐ",
+			"status": false,
+			"customerName": "NgaPham",
+			"doctorName": "Nguyễn Thị D",
+			"star": 5,
+			"userId": 2,
+			"comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel lorem ut nibh laoreet vestibulum at eget velit. Morbi elementum dictum magna id elementum. Suspendisse fringilla lacus et est laoreet laoreet. Proin tincidunt ullamcorper nisi, ut pellentesque magna vulputate feugiat. Nam convallis dui a diam molestie, ac maximus mauris mattis. Quisque eu justo tristique, varius risus ut, interdum quam. Nullam tincidunt, eros vitae convallis posuere, lacus lacus finibus turpis, in sagittis ligula dui vel diam."
+		},
+		{
+			"id": 5,
+			"star": 0,
+			"service": "Cấp cứu",
+			"pet": "Chó, 3 tháng nuôi",
+			"time": "12-12-2020",
+			"status": true,
+			"customerName": "NgaPham",
+			"doctorName": "Nguyễn Thị F",
+			"userId": 2,
+			"comment": "",
+			"cost": "150.000 VNĐ"
+		},
+		{
+			"id": 6,
+			"service": "Cấp cứu",
+			"pet": "Chó, 3 tháng nuôi",
+			"time": "12-12-2020",
+			"cost": "150.000 VNĐ",
+			"status": true,
+			"customerName": "NgaPham",
+			"doctorName": "Nguyễn Thị H",
+			"star": 4,
+			"userId": 3,
+			"comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel lorem ut nibh laoreet vestibulum at eget velit. Morbi elementum dictum magna id elementum. Suspendisse fringilla lacus et est laoreet laoreet. Proin tincidunt ullamcorper nisi, ut pellentesque magna vulputate feugiat. Nam convallis dui a diam molestie, ac maximus mauris mattis. Quisque eu justo tristique, varius risus ut, interdum quam. Nullam tincidunt, eros vitae convallis posuere, lacus lacus finibus turpis, in sagittis ligula dui vel diam."
+		},
+		{
+			"id": 7,
+			"star": 5,
+			"service": "Tiêm phòng ",
+			"pet": "Chó, 3 tháng nuôi",
+			"time": "12-12-2020 ",
+			"cost": "150.000 VNĐ",
+			"status": true,
+			"customerName": "NgaPham",
+			"doctorName": "Nguyễn Thị B",
+			"userId": 2,
+			"comment": "ddddd"
+		}
+	]
+}
